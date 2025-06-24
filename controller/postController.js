@@ -73,8 +73,8 @@ exports.sendMessage = async(req,res)=> {
   const transport = nodemailer.createTransport({
   service: "gmail",
   auth: {
-        user: "cnsubulutt@gmail.com",
-        pass: "vpod xuft qvll jswx",
+        user: "",
+        pass: "",
   },
   });
  
